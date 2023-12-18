@@ -1,6 +1,6 @@
 pipeline {
     agent any	
-  environment {}
+  environment any
 
   stages {
     stage('Build') {
